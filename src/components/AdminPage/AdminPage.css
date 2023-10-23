@@ -1,0 +1,42 @@
+h1 {
+  color: rgb(255, 254, 188);
+}
+
+ul li {
+  color: rgb(253, 255, 208);
+}
+
+.MuiTypography-root,
+/* Change text color for Typography components */
+.MuiDataGrid-root,
+/* Change text color for DataGrid components */
+.MuiButton-root,
+/* Change text color for Button components */
+.MuiInputBase-root,
+/* Change text color for Input components */
+.MuiSelect-root,
+/* Change text color for Select components */
+.MuiMenuItem-root,
+/* Change text color for MenuItem components */
+.MuiTextField-root,
+.MuiTablePagination-root
+/* .MuiSvgIcon-root */
+/* Change text color for TextField components */
+  {
+  color: beige !important;
+  /* Set the text color to beige */
+}
+
+/* Optionally, you can also change the background color of MUI components */
+.MuiPaper-root {
+  background-color: #484747 !important;
+  /* Set the background color to your desired color */
+}
+
+.MuiDataGrid-columnHeader {
+  background-color: #393e4f;
+}
+
+.MuiDataGrid-row.Mui-odd {
+  background-color: #464950;
+}
